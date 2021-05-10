@@ -9,6 +9,6 @@
   opacity: 1;
 }
 
-span {
+.ArrowButton > span {
   text-align: center;
 }
