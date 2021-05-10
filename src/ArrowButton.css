@@ -1,0 +1,14 @@
+.ArrowButton {
+  width: 20px;
+  border: solid 2px black;
+  border-radius: 4px;
+  opacity: 0.3;
+}
+
+.ArrowButton.active {
+  opacity: 1;
+}
+
+span {
+  text-align: center;
+}
