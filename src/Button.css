@@ -4,3 +4,7 @@
   border-radius: 8px;
   padding: 8px;
 }
+
+.Button.active {
+  background: goldenrod;
+}

@@ -1,5 +1,5 @@
 import * as React from 'react'
 import * as ReactDOM from 'react-dom'
-import Button from './Button'
+import App from './App'
 
-ReactDOM.render(<Button text="Click me" />, document.querySelector('#root'))
+ReactDOM.render(<App />, document.querySelector('#root'))
