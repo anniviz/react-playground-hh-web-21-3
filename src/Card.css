@@ -10,7 +10,8 @@
 
 .Card__bookmark {
   position: absolute;
-  height: 10px;
+  height: 40px;
+  padding: 0;
   border: 12px solid grey;
   border-bottom-color: transparent;
   right: 20px;
