@@ -8,7 +8,9 @@ export default () => {
     <div>
       <Button isActive>Active</Button>
       <Button>not Active</Button>
-      <Pagination />
+      <Pagination totalPages={34} currentPage={1} />
+      <Pagination totalPages={34} currentPage={2} />
+      <Pagination totalPages={34} currentPage={34} />
       <Card text="ich bin ein kleiner Text" title="Titel" />
       <Card
         isBookmarkActive

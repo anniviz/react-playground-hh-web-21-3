@@ -1,18 +1,15 @@
 import * as React from 'react'
-import PageBrowser from './PageBrowser'
+import ArrowButton from './ArrowButton'
+import './PageBrowser.css'
 
-export default () => {
+export default ({ currentPage, totalPages }) => {
   return (
-    <section>
-      <PageBrowser isActiveLeft={false} isActiveRight={true}>
-        1/34
-      </PageBrowser>
-      <PageBrowser isActiveLeft={true} isActiveRight={true}>
-        2/34
-      </PageBrowser>
-      <PageBrowser isActiveLeft={true} isActiveRight={false}>
-        34/34
-      </PageBrowser>
-    </section>
+    <div className="PageBrowser">
+      <ArrowButton isActive={currentPage !== 1} direction="left" />
+      <span>
+        {currentPage}/{totalPages}
+      </span>
+      <ArrowButton isActive={currentPage !== totalPages} direction="rigth" />
+    </div>
   )
 }
