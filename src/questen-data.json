@@ -3,9 +3,10 @@
     "category": "Entertainment: Musicals & Theatres",
     "type": "multiple",
     "difficulty": "easy",
-    "question": "Which Shakespeare play inspired the musical &#039;West Side Story&#039;?",
+    "question": "Which Shakespeare play inspired the musical 'West Side Story'?",
     "correct_answer": "Romeo & Juliet",
-    "incorrect_answers": ["Hamlet", "Macbeth", "Othello"]
+    "incorrect_answers": ["Hamlet", "Macbeth", "Othello"],
+    "isAnswerHidden": true
   },
   {
     "category": "Science & Nature",
@@ -19,7 +20,7 @@
     "category": "Entertainment: Japanese Anime & Manga",
     "type": "multiple",
     "difficulty": "easy",
-    "question": "Who was given the title &quot;Full Metal&quot; in the anime series &quot;Full Metal Alchemist&quot;?",
+    "question": "Who was given the title 'Full Metal' in the anime series 'Full Metal Alchemist'?",
     "correct_answer": "Edward Elric",
     "incorrect_answers": ["Alphonse Elric", "Van Hohenheim", "Izumi Curtis"]
   },
@@ -29,13 +30,14 @@
     "difficulty": "medium",
     "question": "Which of the following is a personal computer made by the Japanese company Fujitsu?",
     "correct_answer": "FM-7",
-    "incorrect_answers": ["PC-9801", "Xmillennium ", "MSX"]
+    "incorrect_answers": ["PC-9801", "Xmillennium ", "MSX"],
+    "isAnswerHidden": true
   },
   {
     "category": "Sports",
     "type": "multiple",
     "difficulty": "easy",
-    "question": "Who won the 2016 Formula 1 World Driver&#039;s Championship?",
+    "question": "Who won the 2016 Formula 1 World Driver's Championship?",
     "correct_answer": "Nico Rosberg",
     "incorrect_answers": ["Lewis Hamilton", "Max Verstappen", "Kimi Raikkonen"]
   },
@@ -51,7 +53,7 @@
     "category": "Entertainment: Video Games",
     "type": "multiple",
     "difficulty": "easy",
-    "question": "In &quot;Call Of Duty: Zombies&quot;, what is the name of the Pack-A-Punched Crossbow?",
+    "question": "In 'Call Of Duty: Zombies', what is the name of the Pack-A-Punched Crossbow?",
     "correct_answer": "Awful Lawton",
     "incorrect_answers": ["Longinus", "V-R11", "Predator"]
   },
@@ -61,13 +63,14 @@
     "difficulty": "easy",
     "question": "A wyvern is the same as a dragon.",
     "correct_answer": "False",
-    "incorrect_answers": ["True"]
+    "incorrect_answers": ["True"],
+    "isAnswerHidden": true
   },
   {
     "category": "Entertainment: Cartoon & Animations",
     "type": "boolean",
     "difficulty": "medium",
-    "question": "Nutcracker Suite was one of the musical pieces featured in Disney&#039;s 1940&#039;s film Fantasia.",
+    "question": "Nutcracker Suite was one of the musical pieces featured in Disney's 1940's film Fantasia.",
     "correct_answer": "True",
     "incorrect_answers": ["False"]
   },
@@ -81,6 +84,7 @@
       "Crimean War",
       "Serbian Revolution",
       "Second Balkan War"
-    ]
+    ],
+    "isAnswerHidden": true
   }
 ]

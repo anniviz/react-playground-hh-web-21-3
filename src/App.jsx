@@ -12,8 +12,15 @@ export default () => {
   return (
     <div>
       {cardDataWithIDs.map(element => {
-        const { question, correct_answer, id } = element
-        return <Card key={id} title={question} text={correct_answer}></Card>
+        const { question, correct_answer, id, isAnswerHidden } = element
+        return (
+          <Card
+            key={id}
+            title={question}
+            text={correct_answer}
+            isTextHidden={isAnswerHidden}
+          ></Card>
+        )
       })}
     </div>
   )
