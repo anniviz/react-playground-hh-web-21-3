@@ -9,12 +9,12 @@ export default () => {
       <Button isActive>Active</Button>
       <Button>not Active</Button>
       <Pagination />
+      <Card text="ich bin ein kleiner Text" title="Titel" />
       <Card
-        isBookmarkActive={false}
-        text="ich binn ein anderer kleiner Text"
-        title="Titel"
+        isBookmarkActive
+        text="ich bin anderer ein kleiner Text"
+        title="Titel 2"
       />
-      <Card isBookmarkActive text="ich binn ein kleiner Text" title="Titel" />
     </div>
   )
 }

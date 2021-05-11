@@ -6,7 +6,11 @@ export default ({ title, text, isBookmarkActive }) => {
     <section className="Card">
       <h2>{title}</h2>
       <p>{text}</p>
-      <div className={isBookmarkActive ? 'Bookmark active' : 'Bookmark'} />
+      <div
+        className={
+          isBookmarkActive ? 'Card__bookmark active' : 'Card__bookmark'
+        }
+      />
     </section>
   )
 }

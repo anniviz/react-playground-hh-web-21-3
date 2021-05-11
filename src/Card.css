@@ -8,7 +8,7 @@
   position: relative;
 }
 
-.Bookmark {
+.Card__bookmark {
   position: absolute;
   height: 10px;
   border: 12px solid grey;
@@ -17,7 +17,7 @@
   top: -12px;
 }
 
-.Bookmark.active {
+.Card__bookmark.active {
   border-color: indianred;
   border-bottom-color: transparent;
 }
