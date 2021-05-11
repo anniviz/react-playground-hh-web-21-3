@@ -1,0 +1,93 @@
+[
+  {
+    "category": "Entertainment: Musicals & Theatres",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Which Shakespeare play inspired the musical 'West Side Story'?",
+    "correct_answer": "Romeo & Juliet",
+    "incorrect_answers": ["Hamlet", "Macbeth", "Othello"],
+    "isAnswerHidden": true
+  },
+  {
+    "category": "Science & Nature",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "What is the first element on the periodic table?",
+    "correct_answer": "Hydrogen",
+    "incorrect_answers": ["Helium", "Oxygen", "Lithium"],
+    "isBookmarkActive": true
+  },
+  {
+    "category": "Entertainment: Japanese Anime & Manga",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Who was given the title 'Full Metal' in the anime series 'Full Metal Alchemist'?",
+    "correct_answer": "Edward Elric",
+    "incorrect_answers": ["Alphonse Elric", "Van Hohenheim", "Izumi Curtis"]
+  },
+  {
+    "category": "Science: Computers",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Which of the following is a personal computer made by the Japanese company Fujitsu?",
+    "correct_answer": "FM-7",
+    "incorrect_answers": ["PC-9801", "Xmillennium ", "MSX"],
+    "isAnswerHidden": true,
+    "isBookmarkActive": true
+  },
+  {
+    "category": "Sports",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Who won the 2016 Formula 1 World Driver's Championship?",
+    "correct_answer": "Nico Rosberg",
+    "incorrect_answers": ["Lewis Hamilton", "Max Verstappen", "Kimi Raikkonen"]
+  },
+  {
+    "category": "History",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "When did the British hand-over sovereignty of Hong Kong back to China?",
+    "correct_answer": "1997",
+    "incorrect_answers": ["1999", "1841", "1900"],
+    "isBookmarkActive": true
+  },
+  {
+    "category": "Entertainment: Video Games",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "In 'Call Of Duty: Zombies', what is the name of the Pack-A-Punched Crossbow?",
+    "correct_answer": "Awful Lawton",
+    "incorrect_answers": ["Longinus", "V-R11", "Predator"]
+  },
+  {
+    "category": "Mythology",
+    "type": "boolean",
+    "difficulty": "easy",
+    "question": "A wyvern is the same as a dragon.",
+    "correct_answer": "False",
+    "incorrect_answers": ["True"],
+    "isAnswerHidden": true
+  },
+  {
+    "category": "Entertainment: Cartoon & Animations",
+    "type": "boolean",
+    "difficulty": "medium",
+    "question": "Nutcracker Suite was one of the musical pieces featured in Disney's 1940's film Fantasia.",
+    "correct_answer": "True",
+    "incorrect_answers": ["False"]
+  },
+  {
+    "category": "History",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "The Ottoman Empire was dissolved after their loss in which war?",
+    "correct_answer": "World War I",
+    "incorrect_answers": [
+      "Crimean War",
+      "Serbian Revolution",
+      "Second Balkan War"
+    ],
+    "isAnswerHidden": true
+  }
+]
