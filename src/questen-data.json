@@ -14,7 +14,8 @@
     "difficulty": "easy",
     "question": "What is the first element on the periodic table?",
     "correct_answer": "Hydrogen",
-    "incorrect_answers": ["Helium", "Oxygen", "Lithium"]
+    "incorrect_answers": ["Helium", "Oxygen", "Lithium"],
+    "isBookmarkActive": true
   },
   {
     "category": "Entertainment: Japanese Anime & Manga",
@@ -31,7 +32,8 @@
     "question": "Which of the following is a personal computer made by the Japanese company Fujitsu?",
     "correct_answer": "FM-7",
     "incorrect_answers": ["PC-9801", "Xmillennium ", "MSX"],
-    "isAnswerHidden": true
+    "isAnswerHidden": true,
+    "isBookmarkActive": true
   },
   {
     "category": "Sports",
@@ -47,7 +49,8 @@
     "difficulty": "medium",
     "question": "When did the British hand-over sovereignty of Hong Kong back to China?",
     "correct_answer": "1997",
-    "incorrect_answers": ["1999", "1841", "1900"]
+    "incorrect_answers": ["1999", "1841", "1900"],
+    "isBookmarkActive": true
   },
   {
     "category": "Entertainment: Video Games",

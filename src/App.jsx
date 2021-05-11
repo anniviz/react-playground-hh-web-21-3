@@ -12,13 +12,22 @@ export default () => {
   return (
     <div>
       {cardDataWithIDs.map(element => {
-        const { question, correct_answer, id, isAnswerHidden } = element
+        const {
+          id,
+          question,
+          correct_answer,
+          incorrect_answers,
+          isAnswerHidden,
+          isBookmarkActive,
+        } = element
         return (
           <Card
             key={id}
             title={question}
             text={correct_answer}
             isTextHidden={isAnswerHidden}
+            tags={incorrect_answers}
+            isBookmarkActive={isBookmarkActive}
           ></Card>
         )
       })}
