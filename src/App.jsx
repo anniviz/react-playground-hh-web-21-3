@@ -1,43 +1,35 @@
-import * as React from 'react'
-import Card from './Card'
-import Navigation from './Navigation'
-import cardData from './questen-data.json'
+import React, { useState } from 'react'
 import { v4 as uuidv4 } from 'uuid'
 
 export default () => {
-  const cardDataWithIDs = cardData.map(data => ({
-    ...data,
-    id: uuidv4(),
-  }))
-
-  const navItems = [
-    { title: 'Home', isActive: true },
-    { title: 'About' },
-    { title: 'Imprint' },
-  ]
+  const [todos, setToDos] = useState([])
   return (
-    <div>
-      <Navigation navItems={navItems} />
-      {cardDataWithIDs.map(element => {
-        const {
-          id,
-          question,
-          correct_answer,
-          incorrect_answers,
-          isAnswerHidden,
-          isBookmarkActive,
-        } = element
-        return (
-          <Card
-            key={id}
-            title={question}
-            text={correct_answer}
-            isTextHidden={isAnswerHidden}
-            tags={incorrect_answers}
-            isBookmarkActive={isBookmarkActive}
-          ></Card>
-        )
-      })}
+    <div className="App">
+      <form onSubmit={handleSubmit}>
+        <label>
+          Add todo
+          <input name="todo" type="text" />
+        </label>
+        <button>Add</button>
+      </form>
+      <ul>
+        {todos.map(({ text, isDone, id }) => (
+          <li key={id}>
+            {text} {isDone && '✅'}
+          </li>
+        ))}
+      </ul>
     </div>
   )
+
+  function handleSubmit(event) {
+    event.preventDefault()
+    setToDos(['it works'])
+    const form = event.target
+    const input = form.elements.todo
+    const newTodo = { text: input.value, isDone: false, id: uuidv4() }
+    setToDos([...todos, newTodo])
+    form.reset()
+    input.focus()
+  }
 }
