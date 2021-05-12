@@ -14,7 +14,7 @@ export default () => {
       </form>
       <ul>
         {todos.map(({ text, isDone, id }) => (
-          <li key={id}>
+          <li key={id} onClick={() => handleTodoClick(id)}>
             {text} {isDone && '✅'}
           </li>
         ))}
@@ -31,5 +31,15 @@ export default () => {
     setToDos([...todos, newTodo])
     form.reset()
     input.focus()
+  }
+
+  function handleTodoClick(id) {
+    const index = todos.findIndex(todo => todo.id === id)
+    const todo = todos[index]
+    setToDos([
+      ...todos.slice(0, index),
+      { ...todo, isDone: !todo.isDone },
+      ...todos.slice(index + 1),
+    ])
   }
 }
