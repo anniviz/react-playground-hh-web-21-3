@@ -2,12 +2,14 @@ import React, { useState } from 'react'
 import './App.css'
 
 export default () => {
-  const [size, setSize] = useState(100)
-  const [colorHue, setColorHue] = useState(100)
+  const [size, setSize] = useState('100')
+  const [colorHue, setColorHue] = useState('100')
+  const [radius, setRadius] = useState('10')
   const style = {
     width: size + 'px',
     height: size + 'px',
     background: 'hsl(' + colorHue + ', 100%, 50%)',
+    borderRadius: radius + '%',
   }
   return (
     <div className="App">
@@ -26,7 +28,16 @@ export default () => {
           value={colorHue}
           onChange={handleColorChange}
           type="range"
-          max="360"
+          max="359"
+        />
+      </label>
+      <label>
+        Radius
+        <input
+          value={radius}
+          onChange={handleRadiusChange}
+          type="range"
+          max="50"
         />
       </label>
       <div style={style} className="Box" />
@@ -40,5 +51,10 @@ export default () => {
   function handleColorChange(event) {
     const input = event.target
     setColorHue(input.value)
+  }
+
+  function handleRadiusChange(event) {
+    const input = event.target
+    setRadius(input.value)
   }
 }
